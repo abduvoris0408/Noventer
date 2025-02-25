@@ -1,0 +1,8 @@
+export { default as Card1SVG } from './icons/card1.svg'
+export { default as Card2SVG } from './icons/card2.svg'
+export { default as Card3SVG } from './icons/card3.svg'
+export { default as Card4SVG } from './icons/card4.svg'
+export { default as HeaderPNG } from './images/header.png'
+export { default as Layer1PNG } from './images/Layer 1 copy 2 1.png'
+export { default as Layer2PNG } from './images/Layer 1 copy 2 2.png'
+export { default as Logo } from './logos/logo.svg'
