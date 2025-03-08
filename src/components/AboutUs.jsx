@@ -12,50 +12,50 @@ const AboutUs = () => {
 			</div>
 			<div className='dark:bg-[#0E041D] '>
 				<div className='container w-[85%] mx-auto '>
-					<div className='grid grid-cols-3 max-w-full place-items-center py-10  mx-auto'>
-						<div className='w-90 h-110  rounded-[16px] border border-white/70 bg-white/10 backdrop-blur-lg overflow-hidden flex flex-col gap-2'>
+					<div className='grid gap-y-4 lg:grid-cols-3 max-w-full place-items-center py-10  '>
+						<div className='w-90 h-110  rounded-[16px] border border-black/50 cursor-pointer hover:shadow-md dark:border-white/70 bg-white/10 backdrop-blur-lg overflow-hidden flex flex-col gap-2'>
 							<img
 								src={AboutImg3}
 								alt='aboutimg'
 								className='object-cover h-60'
 							/>
 							<div className='px-4 mt-2 w-[90%] flex flex-col gap-2'>
-								<p className='text-white text-[24px] font-semibold'>
+								<p className='dark:text-white text-[24px] font-semibold'>
 									Boshlanishi
 								</p>
-								<p className='text-white text-[18px]'>
+								<p className='dark:text-white text-[18px]'>
 									Biz --- dan ish boshladik va ---- larni
 									oldimizga maqsad qilib qo’ydik
 								</p>
 							</div>
 						</div>
-						<div className='w-90 h-110  rounded-[16px] border border-white/70 bg-white/10 backdrop-blur-lg overflow-hidden flex flex-col gap-2'>
+						<div className='w-90 h-110   rounded-[16px] border border-black/50 cursor-pointer hover:shadow-md dark:border-white/70 bg-white/10 backdrop-blur-lg overflow-hidden flex flex-col gap-2'>
 							<img
 								src={AboutImg2}
 								alt='aboutimg'
 								className='object-cover h-60'
 							/>
 							<div className='px-4 mt-2 w-[90%] flex flex-col gap-2'>
-								<p className='text-white text-[24px] font-semibold'>
+								<p className='dark:text-white text-[24px] font-semibold'>
 									Uzoq muddatli loyihalar
 								</p>
-								<p className='text-white text-[18px]'>
+								<p className='dark:text-white text-[18px]'>
 									Tajribamiz davomida umumiy hisobda - -
 									loyiha uchun -- - muddatda ishlab topshirdik
 								</p>
 							</div>
 						</div>
-						<div className='w-90 h-110  rounded-[16px] border border-white/70 bg-white/10 backdrop-blur-lg overflow-hidden flex flex-col gap-2'>
+						<div className='w-90 h-110  rounded-[16px] border border-black/50 cursor-pointer hover:shadow-md dark:border-white/70 bg-white/10 backdrop-blur-lg overflow-hidden flex flex-col gap-2'>
 							<img
 								src={AboutImg1}
 								alt='aboutimg'
 								className='object-cover h-60'
 							/>
 							<div className='px-4 mt-2 w-[90%] flex flex-col gap-2'>
-								<p className='text-white text-[24px] font-semibold'>
+								<p className='dark:text-white text-[24px] font-semibold'>
 									Jamoamiz kengaymoqda
 								</p>
-								<p className='text-white text-[18px]'>
+								<p className='dark:text-white text-[18px]'>
 									Jamoamiz safi esa tobora kengaymoqda.
 									Boshida - kishidan boshlangan faoliyatimiz
 									hozirda -- kishi bilan davom etmoqda
@@ -63,7 +63,7 @@ const AboutUs = () => {
 							</div>
 						</div>
 					</div>
-					<p className='text-white text-[18px] text-center'>
+					<p className='dark:text-white text-[18px] text-center'>
 						Bu yerda esa yana ko’proq ma’lumotlar berilishi kerak.
 						Lorem Ipsum is simply dummy text of the printing and
 						typesetting industry. Lorem Ipsum has been the
