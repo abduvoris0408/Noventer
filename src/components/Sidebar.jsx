@@ -4,7 +4,7 @@ import { Logo } from '../assets'
 const Sidebar = ({ isOpen, onClose }) => {
 	return (
 		<div
-			className={`fixed inset-0 z-50 transition-transform transform border-r border-r-gray-300 dark:border-r-gray-600 ${
+			className={`fixed inset-0 z-100 transition-transform transform border-r border-r-gray-300 dark:border-r-gray-600 ${
 				isOpen ? 'translate-x-0' : '-translate-x-full'
 			} bg-white dark:bg-[#0e041d] w-72 p-5 shadow-lg`}
 		>

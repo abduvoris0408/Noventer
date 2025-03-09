@@ -18,7 +18,7 @@ const Navbar = () => {
 
 	return (
 		<div>
-			<div className='w-full h-20 bg-white/50 dark:bg-[#0e041df5]/10 border-b border-b-gray-300 dark:border-b-gray-600 fixed inset-0 z-50 backdrop-blur-md'>
+			<div className='w-full h-20 bg-white/50 dark:bg-[#0e041df5]/10 border-b border-b-gray-300 dark:border-b-gray-600 fixed inset-0 z-999 backdrop-blur-md'>
 				<div className='container w-10/12 mx-auto h-full flex items-center justify-between'>
 					<a href='/' className='flex items-center gap-1'>
 						<img src={Logo} alt='logo' />
